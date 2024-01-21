@@ -18,11 +18,11 @@ from streamlit.logger import get_logger
 LOGGER = get_logger(__name__)
 
 
-def run():
-    st.set_page_config(
-        page_title="Hello",
-        page_icon="👋",
-    )
+#def run():
+    #st.set_page_config(
+        #page_title="Hello",
+        #page_icon="👋",
+    #)
 
     st.write("# :balloon: Welcome to Streamlit! 👋")
 
